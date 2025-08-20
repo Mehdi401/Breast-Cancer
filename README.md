@@ -1,41 +1,55 @@
-🩺 Breast Cancer Notebook
-📌 Overview
+# 🩺 Breast Cancer Classification Notebook
 
-This repository contains the Jupyter notebook BreastCancer.ipynb for breast cancer data analysis with a focus on classification.
+## 📌 Overview
 
-The notebook processes clinical ultrasound data stored in:
+Welcome to the **Breast Cancer Notebook** repository. This project centers around a Jupyter notebook (`BreastCancer.ipynb`) designed for analyzing breast cancer clinical ultrasound data with a focus on **classification tasks**.
 
+The dataset used is located at:
 /content/BrEaST-Lesions-USG-clinical-data-Dec-15-2023.xlsx
 
-Columns referenced include:
-CaseID, Image_filename, Mask_tumor_filename, Mask_other_filename, Pixel_size, Age, Tissue_composition.
 
-⚙️ #Algorithms
+### 📁 Key Columns in the Dataset
 
-Support Vector Machine (SVM)
+- `CaseID`
+- `Image_filename`
+- `Mask_tumor_filename`
+- `Mask_other_filename`
+- `Pixel_size`
+- `Age`
+- `Tissue_composition`
 
-Random Forest
+---
 
-📊 #Evaluation Metrics
+## ⚙️ Algorithms Implemented
 
-Accuracy
+- 🧠 **Support Vector Machine (SVM)**
+- 🌲 **Random Forest**
 
-Precision
+---
 
-Recall
+## 📊 Evaluation Metrics
 
-F1-Score
+To assess model performance, the following metrics are computed:
 
-📚 #Libraries Used
+- ✅ **Accuracy**
+- 🎯 **Precision**
+- 🔁 **Recall**
+- 🧮 **F1-Score**
 
-numpy
+---
 
-pandas
+## 📚 Libraries Used
 
-matplotlib
+This notebook leverages the following Python libraries:
 
-seaborn
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `opencv-python` (`cv2`)
+- `scikit-learn`
 
-opencv-python (cv2)
+---
 
-scikit-learn
+Feel free to explore, fork, and contribute! If you find this useful, a ⭐️ would mean a lot.
+
