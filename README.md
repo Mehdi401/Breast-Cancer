@@ -1,19 +1,22 @@
-# Breast-Cancer
-This repository contains the Jupyter notebook BreastCancer.ipynb for breast cancer data analysis with a classification focus.
-The notebook loads data from an Excel file referenced as:
+🩺 Breast Cancer Notebook
+📌 Overview
+
+This repository contains the Jupyter notebook BreastCancer.ipynb for breast cancer data analysis with a focus on classification.
+
+The notebook processes clinical ultrasound data stored in:
 
 /content/BrEaST-Lesions-USG-clinical-data-Dec-15-2023.xlsx
 
-Columns referenced in the notebook include:
+Columns referenced include:
 CaseID, Image_filename, Mask_tumor_filename, Mask_other_filename, Pixel_size, Age, Tissue_composition.
 
-Algorithms
+⚙️ #Algorithms
 
 Support Vector Machine (SVM)
 
 Random Forest
 
-Evaluation Metrics
+📊 #Evaluation Metrics
 
 Accuracy
 
@@ -21,9 +24,9 @@ Precision
 
 Recall
 
-F1-score
+F1-Score
 
-Libraries Used
+📚 #Libraries Used
 
 numpy
 
