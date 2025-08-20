@@ -22,7 +22,10 @@ The dataset used is located at:
 
 ## ⚙️ Algorithms Implemented
 
+- 📈 **Logistic Regression**
+- 📍 **K-Nearest Neighbors (KNN)**
 - 🧠 **Support Vector Machine (SVM)**
+- 🌳 **Decision Tree**
 - 🌲 **Random Forest**
 
 ---
